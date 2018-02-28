@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Alan主页</title>
+        <link href="../static/mycss/home_page.css" rel="stylesheet" type="text/css"/>
+    </head>
+     
+    <body background = '../static/myhtml/background.jpg'>
+        <div id = "home_page">
+            <div style="color:#000000;text-align:center">
+                <span id="top" name="top"></span>
+                <h1>Alan 博客</h1>
+                <label style = "font-size:16px">个人简历:</label>
+                <a href = "../static/Alan.pdf" title = "Alan.pdf"  target="_blank">点击查看</a>
+                <label style = "font-size:16px">邮    箱:</label>
+                <a>yangzhushan2011@126.com</a>
+            </div>
+            <br>
+            <div class="table-head" style="text-align:center">
+                <input style="width: 150px;height: 30px;font-size: 16px;border:0px solid red;background-color:transparent;" v-model= "start_date"  type="date" placeholder= "开始时间"/>
+                <input style="width: 150px;height: 30px;font-size: 16px;border:0px solid red;background-color:transparent;" v-model= "end_date"  type="date" placeholder= "结束时间"/>
+                <select style ="width: 150px;height: 30px;font-size: 20px;border:0px solid red;background-color:transparent;" v-model= "tag">
+                    <option>--select tag--</option>
+                    <option>git</option>
+                    <option>linux</option>
+                    <option>mysql</option>
+                    <option>nginx</option>
+                    <option>tornado</option>
+                    <option>html/js</option>
+                    <option>sklearn</option>
+                </select>
+                <button style="font-size: 20px;border:0px solid red;background-color:transparent;"  @click = "queryData()">查询</button>
+            </div>
+            <br/>
+            <div>
+                <table style="font-size:15px;table-layout:fixed;width:70%;margin:auto;">
+                    <tbody>
+                    <tr v-for = "(item,index) in content_list">
+                        <td width = 5%><%index+1%>、<br/>
+                            <br/>
+                        </td>
+                        <td width = 40% @click = "subPage(item)"><b><%item.title%></b><br/>
+                            <div style ="font-size:15px;color:#FF0000">标签：<%item.tag%></div>
+                        </td>
+                        <td width = 20%>By: <%item.author%><br/>
+                            <br/>
+                        </td>
+                        <td width = 35%>At:<%item.create_time%><br/>
+                            <br/>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div style = "height: 20px" class="footer">
+                <table style="font-size:15px;table-layout:fixed;width:100%;margin:auto">
+                    <tr>
+                        <td>
+                            <button @click = "showAddDetail()">发布</button>
+                            <br/>
+                            <button @click = "showPicTran()">转换</button>
+                        </td>
+                        <td align = "center">
+                            <div>
+                                <a href="#top">返回顶部</a>
+                                <br/>
+                                <a href= "http://www.miitbeian.gov.cn/">沪ICP备17039712号</a>
+                            </div>
+                        </td>
+                        <td align="right">Thanks for visiting my site.
+                            <br/>
+                            <br/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div v-show = "isShowPicTran" class = "ShowAddDetail">
+                <div>
+                    <div style = "text-align:center">
+                        <h1>Tran One Pic</h1>
+                        <table style="font-size:20px;table-layout:fixed;width:70%;margin:auto">
+                            <tr>
+                                <td>
+                                    <label>Upload file:</label>
+                                </td>
+                                <td>
+                                    <input  type="file" @change = "onfilechange" style="width:150px; height: 30px;font-size: 15px"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Download file:</label>
+                                </td>
+                                <td>
+                                    <a href = "#"  download = "#" id = "pic_tran" ></a>
+                                </td>
+                            </tr>
+                        </table>
+                        <button @click = "picTran()" style="width: 150px;height: 30px;font-size: 15px;">转换</button>
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div style = "text-align:center;">
+                        <button @click = "closePicTran()" style = "width: 150px;height: 30px;font-size: 15px;">关闭</button>
+                    </div>
+                </div>
+            </div>
+            <div v-show = "isShowAddDetail" class = "ShowAddDetail">
+                <div>
+                    <div id = "add_page" style = "text-align:center">
+                        <h1>Add One Record</h1>
+                        <table style="font-size:20px;table-layout:fixed;width:70%;margin:auto">
+                            <tr>
+                                <td><label>Title: </label></td>
+                                <td><input style="width: 150px;height: 30px;font-size: 15px;" v-model= "title"  type="text" placeholder= "请输入"/></td>
+                            </tr>
+                            <tr>
+                                <td><label>Tag: </label></td> 
+                                <td><select style ="width: 150px;height: 30px;font-size: 15px;" v-model= "tag">
+                                        <option>--select tag--</option>
+                                        <option>git</option>
+                                        <option>linux</option>
+                                        <option>mysql</option>
+                                        <option>nginx</option>
+                                        <option>tornado</option>
+                                        <option>html/js</option>
+                                        <option>sklearn </option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Author:</label>
+                                </td>
+                                <td>
+                                    <input style="width: 150px;height: 30px;font-size: 15px;" v-model= "author"  type="text" placeholder= "请输入"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Upload file:</label>
+                                </td>
+                                <td>
+                                    <input  type="file" @change = "onfilechange" style="width:150px; height: 30px;font-size: 15px"/>
+                                </td>
+                            </tr>
+                        </table>
+                        <button @click = "addData()" style="width: 150px;height: 30px;font-size: 15px;">保存</button>
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div style = "text-align:center;">
+                        <button @click = "closeAddDetail()" style = "width: 150px;height: 30px;font-size: 15px;">关闭</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+<script src = "../static/scripts/vue/vue.js"></script>
+<script src = "../static/scripts/jquery/jquery.min.js"></script>
+<script src = "../static/scripts/bootstrap/bootstrap.min.js"></script>
+<script src = "../static/myjs/home_page.js"></script>
+</html>
+

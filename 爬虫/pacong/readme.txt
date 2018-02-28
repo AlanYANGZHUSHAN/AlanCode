@@ -1,0 +1,9 @@
+http://www.cccchzmb.com/下的hes管理
+运行流程是
+1.解压文件
+  修改untitled0.py文件中os.chdir('C:\Users\yangz\Desktop\pacong3')
+  路径为解压所在位置加上\pacong3；即untitled0.py文件所在的路径；
+  例如解压到D盘根目录，则os.chdir('D:\pacong3')
+  保存文件
+2.双击untitled0.py
+注意路径不要有中文，路径符号全是英文标点

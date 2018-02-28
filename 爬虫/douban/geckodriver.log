@@ -1,0 +1,134 @@
+1519570787945	geckodriver	INFO	geckodriver 0.19.1
+1519570787960	geckodriver	INFO	Listening on 127.0.0.1:51942
+1519570791023	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yangz\\AppData\\Local\\Temp\\rust_mozprofile.RA8N1t1BkPXI"
+1519570792567	Marionette	INFO	Enabled via --marionette
+1519570795149	Marionette	INFO	Listening on port 51950
+1519570795272	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 10636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child [Child 4696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4696, Ch*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1519570833235	geckodriver	INFO	geckodriver 0.19.1
+1519570833235	geckodriver	INFO	Listening on 127.0.0.1:51978
+1519570836313	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yangz\\AppData\\Local\\Temp\\rust_mozprofile.iALuz7NETzym"
+1519570837497	Marionette	INFO	Enabled via --marionette
+1519570839445	Marionette	INFO	Listening on port 51986
+1519570839536	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8188, Chrome_Chi*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519570921228	geckodriver	INFO	geckodriver 0.19.1
+1519570921228	geckodriver	INFO	Listening on 127.0.0.1:52012
+1519570924291	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yangz\\AppData\\Local\\Temp\\rust_mozprofile.RxLvItg31J3T"
+1519570925489	Marionette	INFO	Enabled via --marionette
+1519570927579	Marionette	INFO	Listening on port 52020
+1519570928019	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 11208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11208, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519571043467	geckodriver	INFO	geckodriver 0.19.1
+1519571043482	geckodriver	INFO	Listening on 127.0.0.1:52098
+1519571046545	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yangz\\AppData\\Local\\Temp\\rust_mozprofile.mYIPdPQYxMi2"
+1519571047748	Marionette	INFO	Enabled via --marionette
+1519571049703	Marionette	INFO	Listening on port 52106
+1519571049796	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://s1.bdstatic.com/r/www/cache/static/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://cdn.sstatic.net/Js/stub.en.js?v=b900699f9d51, line 1: ReferenceError: $ is not defined
+JavaScript error: https://stackoverflow.com/questions/44145936/chrome-active-content-with-certificate-errors, line 39: TypeError: StackExchange.ready is not a function
+JavaScript error: https://cdn.sstatic.net/Js/stub.en.js?v=b900699f9d51, line 1: ReferenceError: $ is not defined
+JavaScript error: https://stackoverflow.com/questions/44145936/chrome-active-content-with-certificate-errors, line 282: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/44145936/chrome-active-content-with-certificate-errors, line 337: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/44145936/chrome-active-content-with-certificate-errors, line 344: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/44145936/chrome-active-content-with-certificate-errors, line 974: TypeError: StackExchange.ifUsing is not a function
+JavaScript error: https://stackoverflow.com/questions/44145936/chrome-active-content-with-certificate-errors, line 985: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/44145936/chrome-active-content-with-certificate-errors, line 1054: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/44145936/chrome-active-content-with-certificate-errors, line 1095: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/44145936/chrome-active-content-with-certificate-errors, line 1374: TypeError: StackExchange.ready is not a function
+JavaScript error: https://stackoverflow.com/questions/44145936/chrome-active-content-with-certificate-errors, line 1601: TypeError: StackExchange.ready is not a function
+[ChildJavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main-1.0.2.js, line 556: unreachable code after return statement
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main-1.0.2.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.2.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.2.js, line 556: unreachable code after return statement
+WebGL(1EA97C00)::ForceLoseContext
+WebGL(1F106C00)::ForceLoseContext
+JavaScript error: https://sgoutong.baidu.com/embed/1517824371/asset/embed/pc_nb.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 7856, Chrome_ChildT[Parent 6020, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1208, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519571671052	geckodriver	INFO	geckodriver 0.19.1
+1519571671052	geckodriver	INFO	Listening on 127.0.0.1:52701
+1519571674130	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yangz\\AppData\\Local\\Temp\\rust_mozprofile.vyYeAMREr9NA"
+1519571675318	Marionette	INFO	Enabled via --marionette
+1519571677234	Marionette	INFO	Listening on port 52709
+1519571677355	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main-1.0.5.js, line 556: unreachable code after return statement
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main-1.0.5.js, line 556: unreachable code after return statement
+JavaScript warning: http://c.csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main-1.0.5.js, line 556: unreachable code after return statement
+JavaScript warning: http://csdnimg.cn/rabbit/exposure-click/main-1.0.5.js, line 556: unreachable code after return statement
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=60603cb3.js, line 1: TypeError: n.ajax.request is not a function
+[Child 6300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6300, Ch[Child 5656, Chrome_Chil
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519573208240	geckodriver	INFO	geckodriver 0.19.1
+1519573208240	geckodriver	INFO	Listening on 127.0.0.1:53874
+1519573211318	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yangz\\AppData\\Local\\Temp\\rust_mozprofile.QGRl0RpcKnso"
+1519573212528	Marionette	INFO	Enabled via --marionette
+1519573214477	Marionette	INFO	Listening on port 53882
+1519573214525	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 1544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/c*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 1256, Chrome_ChildThread] WARNING: pi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519573276813	geckodriver	INFO	geckodriver 0.19.1
+1519573276813	geckodriver	INFO	Listening on 127.0.0.1:53976
+1519573279922	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yangz\\AppData\\Local\\Temp\\rust_mozprofile.Ay0xPYA74FiQ"
+1519573281129	Marionette	INFO	Enabled via --marionette
+1519573283163	Marionette	INFO	Listening on port 53984
+1519573283636	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346[
+Child 8604, Chrome_Chi[ChldThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8604, Chrome_ChildThread] WARNING: pipe[Child *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1519574157844	geckodriver	INFO	geckodriver 0.19.1
+1519574157859	geckodriver	INFO	Listening on 127.0.0.1:54236
+1519574160938	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\yangz\\AppData\\Local\\Temp\\rust_mozprofile.h8qXPhQzKUjO"
+1519574162127	Marionette	INFO	Enabled via --marionette
+1519574164164	Marionette	INFO	Listening on port 54244
+1519574164635	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8944, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Data\\Local\\Temp\\rust_mozprofile.g2au1WjO76IJ"
+1519574206614	Marionette	INFO	Enabled via --marionette
+1519574208596	Marionette	INFO	Listening on port 54402
+1519574208699	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5332, Chro*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519574285214	geckodriver	INFO	geckodriver 0.19.1
+1519574285230	geckodriver	INFO	Listening on 127.0.0.1:55475

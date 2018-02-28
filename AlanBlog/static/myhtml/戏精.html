@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>C哥中海佛山体验之旅</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+<meta name="description" content="啊哈哈"><link rel="stylesheet" type="text/css" href="../mycss/base.css" media="all">
+</head>
+<script src="http://shared.ydstatic.com/js/zepto/1.1.6.js"></script>
+<script src="http://shared.ydstatic.com/js/ydk/ydk-1.4.4-min.js"></script>
+
+<body>
+<div id = "show1" style = "visibility:visible;"><input type="button" id="play" class="btn" onclick ="playvideo()" style = "height:100px;width:110px;" value="点我播放"></div>
+<div id = "show2" style = "visibility:hidden;"><video id="video" autoplay="autoplay" webkit-playsinline='true' playsinline='true' x-webkit-airplay='true' x5-video-player-type='h5' x5-video-player-fullscreen='true' x5-video-ignore-metadata='true' style="width: 100%; height: 100%"> <source src="./c.mov" type="video/mp4"></video></div>
+<div id = "show3" style = "visibility:hidden;"><input type="button" id="replay" class="btn" style = "height:100px;width:160px;" onclick ="playvideo()" value="点我重新播放"></div>
+<script>
+function playvideo()
+{   document.getElementById("show3").style.visibility = "hidden";
+    document.getElementById("show1").style.visibility = "hidden";
+    document.getElementById("show2").style.visibility = "visible";
+    var aud = document.getElementById("video");
+    aud.play()
+    aud.onended = function (){
+      document.getElementById("show2").style.visibility = "hidden";
+      setTimeout(function(){document.getElementById("show3").style.visibility = "visible";},3000);
+    }
+}
+</script>
+</body>
+</html>

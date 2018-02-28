@@ -1,0 +1,97 @@
+[INFO  - 2018-01-15T07:10:03.206Z] GhostDriver - Main - running on port 57525
+[INFO  - 2018-01-15T07:10:06.055Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-01-15T07:10:06.056Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.customHeaders:  - {}
+[INFO  - 2018-01-15T07:10:06.056Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-01-15T07:10:06.056Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1d1bf580-f9c3-11e7-80bb-2541355ac12f
+[ERROR - 2018-01-15T07:14:19.521Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:19.523Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - stack:
+  global code (http://www.galaxyasset.com/frontweb/home/search/articleListpage.do?columnId=622&gotoPage=1&pageSize=10:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:23.086Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:23.087Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - stack:
+  global code (http://www.galaxyasset.com/frontweb/home/search/articleListpage.do?columnId=622&gotoPage=2&pageSize=10:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:26.414Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:26.415Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - stack:
+  global code (http://www.galaxyasset.com/frontweb/home/search/articleListpage.do?columnId=622&gotoPage=3&pageSize=10:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:29.920Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:29.921Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - stack:
+  global code (http://www.galaxyasset.com/frontweb/home/search/articleListpage.do?columnId=622&gotoPage=4&pageSize=10:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:33.338Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:33.339Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - stack:
+  global code (http://www.galaxyasset.com/frontweb/home/search/articleListpage.do?columnId=622&gotoPage=5&pageSize=10:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:36.783Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:36.784Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - stack:
+  global code (http://www.galaxyasset.com/frontweb/home/search/articleListpage.do?columnId=622&gotoPage=6&pageSize=10:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:40.231Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:40.231Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - stack:
+  global code (http://www.galaxyasset.com/frontweb/home/search/articleListpage.do?columnId=622&gotoPage=7&pageSize=10:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:43.630Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:43.630Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - stack:
+  global code (http://www.galaxyasset.com/frontweb/home/search/articleListpage.do?columnId=622&gotoPage=8&pageSize=10:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:46.955Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:46.955Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - stack:
+  global code (http://www.galaxyasset.com/frontweb/home/search/articleListpage.do?columnId=622&gotoPage=9&pageSize=10:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:50.349Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:50.350Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - stack:
+  global code (http://www.galaxyasset.com/frontweb/home/search/articleListpage.do?columnId=622&gotoPage=10&pageSize=10:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:53.844Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:53.845Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - stack:
+  global code (http://www.galaxyasset.com/frontweb/home/search/articleListpage.do?columnId=622&gotoPage=11&pageSize=10:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:57.234Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:14:57.235Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - stack:
+  global code (http://www.galaxyasset.com/frontweb/home/search/articleListpage.do?columnId=622&gotoPage=12&pageSize=10:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:15:00.614Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-15T07:15:00.615Z] Session [1d1bf580-f9c3-11e7-80bb-2541355ac12f] - page.onError - stack:
+  global code (http://www.galaxyasset.com/frontweb/home/search/articleListpage.do?columnId=622&gotoPage=13&pageSize=10:5)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-01-15T07:15:03.201Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

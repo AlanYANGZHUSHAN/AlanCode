@@ -1,0 +1,44 @@
+html{height:100%;}
+body{min-height:100%;margin:0;padding:0;position:relative;overflow:hidden;}
+.header{background-color:#FFEFD5;}
+.main{
+    padding-bottom:100px;
+    background-color: #bdb76b;
+}/* main的padding-bottom值要等于或大于footer的height值 */
+.footer{
+    position:fixed;
+    bottom:40px;
+    width:100%;
+    height:100px;
+}
+.ShowAddDetail{
+    position:fixed;
+    z-index:2;
+    width:60%;
+    height:70%;
+    margin-left:20%;
+    top: 10%;
+    background:rgba(0,0,0,0.3);
+}
+.ShowAddDetail >div{
+    width:100%;
+    height:100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    background: #fff;
+    margin:auto;
+    margin-top: 0px;
+    padding:20px 20px;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+    overflow: hidden;
+}
+.ShowAddDetail >div .btn-group{
+    text-align:center;
+    margin:auto;
+    clear:both;
+    margin-top:50px;
+}
+
